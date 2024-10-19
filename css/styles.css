@@ -92,6 +92,10 @@ img {
 
 .nav-item {}
 
+.nav-link {
+  color: #404bbf;
+}
+
 .active::after {
   content: "";
   width: 100%;
@@ -103,6 +107,7 @@ img {
   left: 0;
   bottom: 0;
   bottom: -1px;
+
 }
 
 .nav-link:hover {
@@ -135,7 +140,7 @@ img {
   letter-spacing: 0.02em;
   color: #434455;
   font-style: normal;
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 0.2);
 }
 
 .contact-link:hover {
@@ -189,7 +194,7 @@ img {
   display: block;
   margin: 0 auto;
   margin-top: 48px;
-  background-color: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  background-color: transitions 250ms cubic-bezier (0.4, 0, 0.2, 1);
 }
 
 .order-button:hover {
