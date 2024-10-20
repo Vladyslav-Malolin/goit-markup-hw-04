@@ -476,6 +476,14 @@ img {
   background-color: #404bbf;
 }
 
+.team-icon-links:hover {
+  background-color: #31d0aa;
+}
+
+.team-icon-links:focus {
+  background-color: #31d0aa;
+}
+
 .team-icon-list {
   display: flex;
   gap: 24px;
