@@ -452,11 +452,11 @@ img {
 
 .team-icon {
   fill: #ffffff;
+
 }
 
 .team-icon-link {
-  width: 40px;
-  height: 40px;
+
   background-color: #4d5ae5;
   border-radius: 50%;
   display: flex;
@@ -473,7 +473,7 @@ img {
   background-color: #31d0aa;
 }
 
-.team-soc {
+.team-icon-list {
   display: flex;
   gap: 24px;
   padding-left: 16px;
@@ -497,12 +497,18 @@ img {
 
 .footer-container {
   display: flex;
+  align-items: baseline;
 }
 
 .footer-left {
   margin-right: 120px;
 }
 
-.soc-media {
+.icon-list {
   gap: 16px;
+}
+
+.team-icon-item {
+  width: 40px;
+  height: 40px;
 }
